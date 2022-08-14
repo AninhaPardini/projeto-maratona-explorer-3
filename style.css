@@ -1,0 +1,193 @@
+
+
+/* GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1b131d;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+  list-style: none;
+
+}
+
+
+
+/* HEADER */
+header {
+  padding: 32px 0;
+  text-align: center;
+  color: rgb(248, 218, 255);
+}
+
+h1 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.hours {
+  font-size: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+  
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+  color: rgb(254, 254, 254);
+  
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+header h1 span {
+  color: #751ab3
+}
+
+/* SECTION */
+section {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+/* Header */
+section #img1, #img2 {
+  position: absolute;
+  height: 13.5%;
+  bottom: 84.5%;
+
+  
+}
+
+section #img1 {
+  left: 82.5%;
+  
+}
+
+section #img2 {
+  left: 3.3%;
+  
+}
+
+@keyframes Header {
+  0.0%{
+      transform: rotate(0deg);
+  }
+  50.0%{
+      transform: rotate(360deg);
+  }
+} 
+
+/* Add the animation: property to whichever element you want to animate */
+#img1, #img2 {
+  animation: Header 7s ease 0s infinite normal none;
+} 
+
+/* Drinks */
+section #img3, #img4 {
+  position: absolute;
+  height: 13.5%;
+  bottom: 84.7%;
+
+  
+}
+
+section #img3 {
+  left: 82.5%;
+  
+}
+
+section #img4 {
+  left: 3.3%;
+  
+}
+
+@keyframes Drinks {
+  0.0%{
+      transform: rotate(0deg);
+  }
+  25.0%{
+      transform: rotate(30deg);
+  }
+  49.8%{
+  }
+  75.4%{
+      transform: rotate(-30deg);
+  }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#img3, #img4 {
+  animation: Drinks 4s ease 0s infinite normal none;
+} 
+
+section h2 {
+  background-color: #3c0b5c;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24PX;
+}
+
+/* LISTS */
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+  
+}
+
+#Pudim, #Log, #Waffle, #Choco, #Refri, #Suco {
+  transition: transform 1s;
+  transform: translateX(25px) scale(1.10);
+}
+
+#Pudim:hover, #Pudim:focus, 
+#Log:hover, #Log:focus,
+#Waffle:hover, #Waffle:focus,
+#Choco:hover, #Choco:focus,
+#Refri:hover, #Refri:focus,
+#Suco:hover, #Suco:focus
+ {
+  background: #3c0b5c 100;
+  transform: translateX(27px) scale(1.20);
+  
+}
+
+li .description {
+  max-width: 280px;
+}
+
+li h3 {
+  margin-bottom: 8px;
+}
+
+/* FONTS */
+
+h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 45px;
+}
+
+h3, .price {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 25px;
+}
+
+section h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
+}
+
+.description {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+}

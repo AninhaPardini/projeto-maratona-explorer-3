@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DEVCoffe</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      body{ background-image: url('images/background1.png'); }
+      img { opacity : 1; }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+
+    <header>
+      <h1>
+        Dev<span>Snacks</span>
+
+      </h1>
+      <p class="hours">Aberto só quando não ta fechado!</p>
+    </header>
+
+    <!-- seção -->
+    <section class="Header">
+      <div>
+      </div>
+      <div>
+      <img id="img2" src="https://lh3.googleusercontent.com/Srg7NHm-M4cbHaPyZhkzt8oDRj9tssr2KfMZlydvaniUwO_rqeNDk7VDnH1P4lNb4FLugj2e1scTg1HMyj6BNyGkFW3kbd_naDUEmfE28_m4ltfmZ3h6ceU-Eus0DHOeLbm_DcAko-_3vJB-wrGuoMf6sFxKQfsR9SKv6ZwmxW0FgXcyFE4eAII4Mx114OFh5xev-8A4jE_za3jM_5bD6G8fyaDOXSdUe9spgu3KnHRLtOQmkvb-4JKhF-wWtQyauyVX4sF4-iMgy4eP458DN6HupgBBLZBP-K97fgrepJfEsM68JIaVWVK4oXrogC3fktC0cKKUUtExzenN1SCmR3zj_KnL8Dj3BSDTY852WcY3XTLJ7_dXjOHwnCaxbTD399gJLKKbonlOg4g67km3xPd5YS4biKy0LY4oZd1WHsxHuwc81mHgcIjxUsAWH4VvnGpULYQHbpglLF1clzPZEwvFXNLCaJF8jUzB84D6_iaHgbJcmZblA0cfMDh41UePpmaH9yob-NyFTNQFhRmjrzVXWlzfncKq2Cx-FJ53MF7JzxqXolsvrSFAaXYNhFpXTYbNbJja7zw5m-KUNpjPLoVA6flfZo8KTVCm-peyCsA2NN5JKXd8oHmGsdLIhmyoyrz6l81nZ_z0DXotCi_jphZS2F3Se-CsW2VVKTjDIGAKRMA76i9yESdGuzA0g9PL0B7TmyBBE7ZUnNQZg-e_jLM5GNbfggpOBY_cjSxr4czXFimFN45RMGBuAD5IFaH9jx6IktHxLmDcrJtB_vBXJoivbQXvRjCmN3YW5w9NaMZvsrqgtZa-pvWKjhTHnNT_cPpz1aMOI9W1is4BzXm7BAY8Fzy4bjLREd7NK54FzglBMDFDvCLDa2JsppcITT4=s616-no?authuser=2" alt="Waffle Icon" id="Waffle">
+      <img id="img1" src="https://lh3.googleusercontent.com/Srg7NHm-M4cbHaPyZhkzt8oDRj9tssr2KfMZlydvaniUwO_rqeNDk7VDnH1P4lNb4FLugj2e1scTg1HMyj6BNyGkFW3kbd_naDUEmfE28_m4ltfmZ3h6ceU-Eus0DHOeLbm_DcAko-_3vJB-wrGuoMf6sFxKQfsR9SKv6ZwmxW0FgXcyFE4eAII4Mx114OFh5xev-8A4jE_za3jM_5bD6G8fyaDOXSdUe9spgu3KnHRLtOQmkvb-4JKhF-wWtQyauyVX4sF4-iMgy4eP458DN6HupgBBLZBP-K97fgrepJfEsM68JIaVWVK4oXrogC3fktC0cKKUUtExzenN1SCmR3zj_KnL8Dj3BSDTY852WcY3XTLJ7_dXjOHwnCaxbTD399gJLKKbonlOg4g67km3xPd5YS4biKy0LY4oZd1WHsxHuwc81mHgcIjxUsAWH4VvnGpULYQHbpglLF1clzPZEwvFXNLCaJF8jUzB84D6_iaHgbJcmZblA0cfMDh41UePpmaH9yob-NyFTNQFhRmjrzVXWlzfncKq2Cx-FJ53MF7JzxqXolsvrSFAaXYNhFpXTYbNbJja7zw5m-KUNpjPLoVA6flfZo8KTVCm-peyCsA2NN5JKXd8oHmGsdLIhmyoyrz6l81nZ_z0DXotCi_jphZS2F3Se-CsW2VVKTjDIGAKRMA76i9yESdGuzA0g9PL0B7TmyBBE7ZUnNQZg-e_jLM5GNbfggpOBY_cjSxr4czXFimFN45RMGBuAD5IFaH9jx6IktHxLmDcrJtB_vBXJoivbQXvRjCmN3YW5w9NaMZvsrqgtZa-pvWKjhTHnNT_cPpz1aMOI9W1is4BzXm7BAY8Fzy4bjLREd7NK54FzglBMDFDvCLDa2JsppcITT4=s616-no?authuser=2" alt="Waffle Icon" id="Waffle">
+      <h2>Header</h2>
+      </div>
+      
+
+      <!-- linha não ordenada -->
+      <ul>
+        <li>
+          <div id="Pudim">
+            <h3>Pudim .init</h3>
+            <p class="description">Para iniciar o dia bem, vai um Pudim de leite?</p>
+          </div>
+          <strong id="Price">R$6.40</strong>
+        </li>
+        <!-- Maça  -->
+        <li>
+          <div id="Log">
+            <h3>Log Doce</h3>
+            <p class="description">Cheio de dados deliciosos para o seu bloquinho!</p>
+          </div>
+          <strong>R$14.50</strong>
+        </li>
+        <!-- Pudim init -->
+        <li>
+          <div id="Waffle">
+            <h3>Waffle Tag</h3>
+            <p class="description">Um delicioso Waffle com mel, simples porem tem muito conteúdo dentro!</p>
+          </div>
+          <strong>R$24.99</strong>
+        </li>
+      </ul>
+    </section>
+
+    <section class="Drinks">
+      <div>
+      <h2>Drinks</h2>
+      <img id="img3" src="https://lh3.googleusercontent.com/Nd-TBCe2dSMfAC7zysauPrV9n79Kxgu9Z6LCtpjQEIgSWWM8VG_yYvbdpY4gZSPkBSZsa2DsqfRSKw-xOFbIEFN4zZuXzIoY0pGqKTgZkoUJ9kX0ZhVN4wY96ALUebMwT_2vp9wvlBeWLtGpksnAOOzg6dWatbr6Vkf5RDewkp94CX8mZRLJmxEgPaBGPsHpJHBETIDWlSKngibyifV3jD_agW446xvhWdxFhzXDaDcPdJnyTupqVxQbolAQMU7-uz00bIFVuMvU8AdrAyf6j-KUkvnCPw2058VzmHRHhoxCPfVJ2QOgcwecEAOVdqXq2YKG_fjqgKJmFjF3jzAeIr5P0BtJn_vFEgeaNhxUz-n0xi0VGdW50GkKpJj4XmRjCj6Ds1pqkOMgqVKQ7dORZI0Ai7hqGeTyOtdRwNPcD0Li8e9rBJZPIgDZYQtlTq592X0ZzzSX2zaMA4znaXZGat3aMw4KVMr6OIx6VNXNledcJRtNVE7ycAN7lHR5OA-a4Bbyb4DsY4xeFL0uCB26xbiqIEWh0hJrBga0ucn3CA-vu_HuLK4mIxknBZf5APGJpb8VZKUNamEf7DTlg5f7YAwnJZceF9R3GQ-VwuATUkY38BciwRHzoI4Re91Pzuqd9gW7DIJdA3NPYz_xksemuCnwVZmRCu8yT5OzH8DLbVBAbBS2KGQJLRFIYSKlDk97sz5Eh6t2C0oBbwgA0KlKTK9Gy6yKYaKmk0r6bDBNqOPO-gASSm4_8IgSRYYmR66iA_53t0Goq7_jPrGKPKiiQ-vf07g14nDUnQHjNh4Rm5ZgngBPqb7j06lv8mpnb29rIw0HJ2BP08wYVwPd12hTuWrXp52d2xO5lPYJdc3UWXYZFhZoz2yHGzzMgFmkbgY=s616-no?authuser=2" alt="milkshake icon">
+      <img id="img4" src="https://lh3.googleusercontent.com/Nd-TBCe2dSMfAC7zysauPrV9n79Kxgu9Z6LCtpjQEIgSWWM8VG_yYvbdpY4gZSPkBSZsa2DsqfRSKw-xOFbIEFN4zZuXzIoY0pGqKTgZkoUJ9kX0ZhVN4wY96ALUebMwT_2vp9wvlBeWLtGpksnAOOzg6dWatbr6Vkf5RDewkp94CX8mZRLJmxEgPaBGPsHpJHBETIDWlSKngibyifV3jD_agW446xvhWdxFhzXDaDcPdJnyTupqVxQbolAQMU7-uz00bIFVuMvU8AdrAyf6j-KUkvnCPw2058VzmHRHhoxCPfVJ2QOgcwecEAOVdqXq2YKG_fjqgKJmFjF3jzAeIr5P0BtJn_vFEgeaNhxUz-n0xi0VGdW50GkKpJj4XmRjCj6Ds1pqkOMgqVKQ7dORZI0Ai7hqGeTyOtdRwNPcD0Li8e9rBJZPIgDZYQtlTq592X0ZzzSX2zaMA4znaXZGat3aMw4KVMr6OIx6VNXNledcJRtNVE7ycAN7lHR5OA-a4Bbyb4DsY4xeFL0uCB26xbiqIEWh0hJrBga0ucn3CA-vu_HuLK4mIxknBZf5APGJpb8VZKUNamEf7DTlg5f7YAwnJZceF9R3GQ-VwuATUkY38BciwRHzoI4Re91Pzuqd9gW7DIJdA3NPYz_xksemuCnwVZmRCu8yT5OzH8DLbVBAbBS2KGQJLRFIYSKlDk97sz5Eh6t2C0oBbwgA0KlKTK9Gy6yKYaKmk0r6bDBNqOPO-gASSm4_8IgSRYYmR66iA_53t0Goq7_jPrGKPKiiQ-vf07g14nDUnQHjNh4Rm5ZgngBPqb7j06lv8mpnb29rIw0HJ2BP08wYVwPd12hTuWrXp52d2xO5lPYJdc3UWXYZFhZoz2yHGzzMgFmkbgY=s616-no?authuser=2" alt="milkshake icon">
+      </div>
+      <!-- linha não ordenada -->
+      <ul>
+        <li>
+          <div id="Choco">
+            <h3>ChocoGit</h3>
+            <p class="description">Uma mistura de leite, chocolate e muito repertório!.</p>
+          </div>
+          <strong>R$7.99</strong>
+        </li>
+        <!-- Maça  -->
+        <li>
+          <div id="Refri">
+            <h3>Refri Script</h3>
+            <p class="description">Um refri que você tem que ter no seu dia a dia!</p>
+          </div>
+          <strong>R$5.50</strong>
+        </li>
+        <!-- Pudim init -->
+        <li>
+          <div id="Suco">
+            <h3>Suco Colors</h3>
+            <p class="description">O suco de laranja mais rgb que um pc gamer!</p>
+          </div>
+          <strong>R$8.90</strong>
+        </li>
+      </ul>
+    </section>
+
+
+  </body>
+
+</html>
